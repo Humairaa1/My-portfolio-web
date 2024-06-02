@@ -5,7 +5,42 @@
 }
 
 *{
-    background-color: aquamarine;
     border: 0;
     margin: 0;
+}
+
+body {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+nav {
+    margin: 50px 120px 30px;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #FD6F00;
+    font-size: 32px;
+}
+.li-item li{
+    list-style: none;
+    font-size: 20px;
+}
+
+.li-item {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.btn{
+    background-color: #FD6F00;
+    color: white;
+    font-size: 20px;
+    padding:8px 15px;
 }
