@@ -14,7 +14,7 @@ body {
     color: white;
 }
 
-nav {
+.banner-section,nav {
     margin: 50px 120px 30px;
 }
 
@@ -43,4 +43,73 @@ nav {
     color: white;
     font-size: 20px;
     padding:8px 15px;
+}
+
+/*css for banner section */
+
+.banner-section {
+      display: flex;
+      gap: 60px;
+}
+
+.banner-heading {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.my-info {
+    width: 50%;
+}
+
+.org-icon {
+    color: #FD6F00;
+    margin: 0 10px;
+}
+
+.bogura {
+    color: #FD6F00;
+}
+
+.three-skill {
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.hire-me-border{
+    background-color: #343434;
+    width: 240px;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.hire-me {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 8px;
+}
+
+.portfolio-btn {
+    background-color: #FD6F00;
+    color: white;
+    font-size: 20px;
+    padding:10px 15px;
+    border-radius: 20px;
+}
+
+.all-icon {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.icon {
+    color: #8e8e8e;
+    margin-right: 10px;
+}
+
+.profile{
+    border-radius: 220px 220px 20px 20px;
 }
