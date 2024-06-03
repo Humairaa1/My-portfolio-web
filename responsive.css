@@ -39,5 +39,11 @@
     .profile{
         width: 100%;
     }
+
+    /* rotated section  */
+.rotated-section{
+    font-size: 16px;
+    transform: rotate(0deg)
+}
 }
 

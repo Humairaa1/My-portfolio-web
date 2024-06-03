@@ -113,3 +113,19 @@ body {
 .profile{
     border-radius: 220px 220px 20px 20px;
 }
+
+/* rotated section  */
+.rotated-section{
+    background-color: black;
+    font-size: 30px;
+    transform: rotate(-4deg)
+}
+
+.rotated {
+    padding:25px;
+}
+
+.yash-icon {
+    color: #343434;
+    margin: 0 10px;
+}
