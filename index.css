@@ -14,7 +14,7 @@ body {
     color: white;
 }
 
-.banner-section,nav {
+.banner-section, .about-me-section ,nav {
     margin: 50px 120px 30px;
 }
 
@@ -128,4 +128,35 @@ body {
 .yash-icon {
     color: #343434;
     margin: 0 10px;
+}
+/* about-me-section  */
+.about-me-section {
+    margin-top: 150px;
+    display: flex;
+    gap: 300px;
+}
+
+.about-me-description {
+    width: 50%;
+}
+
+.about-me {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.goals-skill {
+    font-size: 24px;
+    text-decoration: underline;
+    margin: 10px 0;
+}
+
+.ten-years {
+    font-size: 32px;
+}
+.star-icon {
+    color: #FD6F00;
+}
+.experience {
+    text-align: end;
 }
