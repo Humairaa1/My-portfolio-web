@@ -56,8 +56,24 @@
 .about-me-description {
     width: 100%;
 }
-.experience {
+.experience-block {
     text-align: center;
+}
+/* my-experience-section  */
+.my-experience {
+    margin: 50px 50px 30px;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px 0;
+}
+.my-experience-content {
+    width: 100%;
+}
+.experience-year {
+    gap: 50px;
+}
+.ui-us-designer {
+    font-size: 24px;
 }
 }
 

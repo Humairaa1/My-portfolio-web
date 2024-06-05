@@ -14,13 +14,20 @@ body {
     color: white;
 }
 
-.banner-section, .about-me-section ,nav {
-    margin: 50px 120px 30px;
+.heading {
+    font-size: 32px;
+    margin-bottom: 20px;
 }
 
+.banner-section,
+ .about-me-section ,
+ nav {
+    margin: 50px 120px 30px;
+}
+/* nav section */
 .nav-items{
     display: flex;
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .logo {
@@ -140,11 +147,6 @@ body {
     width: 50%;
 }
 
-.about-me {
-    font-size: 32px;
-    margin-bottom: 20px;
-}
-
 .goals-skill {
     font-size: 24px;
     text-decoration: underline;
@@ -157,6 +159,45 @@ body {
 .star-icon {
     color: #FD6F00;
 }
-.experience {
+.experience-block {
     text-align: end;
+}
+
+/* my-experience-section  */
+
+.my-experience-section {
+    background: linear-gradient(to right, #2e2632 ,#342c22);
+}
+
+.my-experience {
+    margin: 50px 120px 30px;
+    display: flex;
+    padding: 80px 0;
+    gap: 80px;
+}
+
+.my-experience-content {
+    width: 50%;
+}
+
+.experience {
+    font-style: italic;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.experience-year {
+    display: flex;
+    gap: 200px;
+}
+
+.ui-us-designer {
+    font-size: 32px;
+    font-weight: 700;
+    margin:20px 0 ;
+}
+
+.horizontal {
+    border-bottom:1px solid white;
+    margin-bottom:30px ;
 }
