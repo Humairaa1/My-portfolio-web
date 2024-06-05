@@ -172,8 +172,8 @@ body {
 .my-experience {
     margin: 50px 120px 30px;
     display: flex;
+    justify-content: space-between;
     padding: 80px 0;
-    gap: 80px;
 }
 
 .my-experience-content {
@@ -200,4 +200,29 @@ body {
 .horizontal {
     border-bottom:1px solid white;
     margin-bottom:30px ;
+}
+
+/* award section  */
+.award-title{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.award-block {
+    background-color: black;
+    margin: 50px 120px 30px;
+    padding: 50px;
+}
+
+.award-block-content{
+    display: flex;
+    justify-content: space-between;
+}
+.award-name {
+    width: 60%;
+}
+.award-name-title{
+    margin-bottom: 20px;
 }

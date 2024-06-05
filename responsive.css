@@ -75,5 +75,20 @@
 .ui-us-designer {
     font-size: 24px;
 }
+
+/* award section  */
+.award-title{
+    width: 100%;
+}
+.award-block {
+    margin: 50px 50px 30px;
+    padding: 20px;
+}
+.award-block-content{
+    flex-direction: column-reverse;
+}
+.award-name {
+    width: 100%;
+}
 }
 
