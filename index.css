@@ -310,3 +310,38 @@ body {
 .attach-block {
     margin-bottom: 30px;
 }
+
+/* footer section  */
+.footer-section{
+    background-color: black;
+    margin-top: 80px;
+    padding: 50px 0;
+}
+.footer-logo {
+     color: #FD6F00;
+     font-size: 64px;
+     font-weight:700;
+     text-align: center;
+}
+.footer-items {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 20px;
+    margin: 60px 0;
+}
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 30px;
+}
+.copyright{
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+.copyright-name{
+    color: #FD6F00;
+}
