@@ -110,5 +110,13 @@
 .project-description-block {
     padding: 10px 0;
 }
+/* contract section */
+.contract-heading {
+    margin-top: 40px;
+}
+.contract-block{
+    margin: 50px 50px 30px;
+    padding: 20px;
+}
 }
 

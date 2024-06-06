@@ -19,6 +19,11 @@ body {
     margin-bottom: 20px;
 }
 
+.horizontal {
+    border-bottom:1px solid white;
+    margin-bottom:30px ;
+}
+
 .banner-section,
  .about-me-section ,
  nav {
@@ -197,10 +202,6 @@ body {
     margin:20px 0 ;
 }
 
-.horizontal {
-    border-bottom:1px solid white;
-    margin-bottom:30px ;
-}
 
 /* award section  */
 .award-title{
@@ -270,4 +271,42 @@ body {
 }
 .project-description-block {
     padding: 40px 0;
+}
+
+/* contract section */
+.contract-heading {
+    text-align: center;
+    margin-top: 100px;
+}
+.contract{
+    font-size: 18px;
+    font-style: italic;
+}
+.contract-block{
+    background-color: #34261b;
+    margin: 50px 120px 30px;
+    padding: 50px;
+}
+.name-email-block{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.name-email{
+    margin-bottom: 10px;
+}
+.name-block {
+    width: 50%;
+}
+.email-block {
+    width: 50%;
+}
+.massage {
+    margin-bottom: 40px;
+}
+.attach {
+    margin-left: 5px;
+}
+.attach-block {
+    margin-bottom: 30px;
 }
